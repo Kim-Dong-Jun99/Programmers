@@ -8,7 +8,6 @@ def solution(s):
             j = i
             temp = ''
             while 97 <= ord(s[j]) and ord(s[j]) <= 122 and j < len(s):
-
                 temp += s[j]
                 j += 1
                 if (temp in table):
