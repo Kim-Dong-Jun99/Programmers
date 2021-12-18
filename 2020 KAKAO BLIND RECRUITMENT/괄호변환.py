@@ -26,11 +26,8 @@ def solution(p):
                         temp += ')'
                     else:
                         temp += '('
-
             answer = '(' + solution(v) + ')' + temp
     return answer
-
-
 def checkvalid(str):
     stack = []
     for i in str:
